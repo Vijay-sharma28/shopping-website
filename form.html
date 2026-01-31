@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="practice.css"> -->
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h2>VJ SHOPPING MART</h2>
+        </div>
+        <div class="right">
+            <div class="top">
+                <button>Sing Up</button>
+                <button>Login</button>
+            </div>
+            <hr>
+            <hr>
+            <div class="bottom">
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
+                        <li><a href="form.html">CONTACT</a></li>
+                    </ul>
+                    <input type="text" placeholder="Search"> <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <!-- <h1>CONTACT</h1> -->
+        <br>
+        <hr>
+        <hr>
+        <hr>
+
+
+        <div class="contact-form-container">
+            <h2>Contact Customer Support</h2>
+            <p>If you have any questions or issues regarding your order, products, or delivery, please reach out to us
+                through the form below. We’re here to help!</p>
+            <form action="contact.php" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" required placeholder=" " />
+                    <label for="name">Full Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required placeholder=" " />
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="order-number" name="order-number" required placeholder=" " />
+                    <label for="order-number">Order Number</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="subject" name="subject" required placeholder=" " />
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="foot">
+        <p> Made by @vijay_sharma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i
+                class="fa-brands fa-instagram insta"></i> <a
+                href="https://www.instagram.com/sharma_vijay28?igsh=MWxlYWU4eGZsY290Ng=="
+                target="_blank">sharma_vijay28</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-brands fa-facebook fb"></i> <a
+                href="https://www.facebook.com/share/18ECwAWkRm/" target="_blank">vijay sharma</a></p>
+        <!-- <p>AMAN BHALLA INSTITUTE OF ENGINEERING AND TECHNOLOGY</p> -->
+    </footer>
+</body>
+
+</html>
